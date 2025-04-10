@@ -83,7 +83,7 @@
     class="rounded-xl w-full h-full text-center"
     src={iframeSrc}
     title="paymentpage"
-    sandbox="allow-popups allow-top-navigation allow-scripts"
+    sandbox="allow-popups allow-top-navigation allow-scripts allow-popups-to-escape-sandbox"
   />
 </Modal>
 <Modal
