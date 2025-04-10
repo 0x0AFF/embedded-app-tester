@@ -79,7 +79,12 @@
   bind:open={defaultModal}
   autoclose
 >
-  <iframe class="rounded-xl w-full h-full text-center" src={iframeSrc} title="paymentpage" />
+  <iframe
+    class="rounded-xl w-full h-full text-center"
+    src={iframeSrc}
+    title="paymentpage"
+    sandbox="allow-popups allow-top-navigation allow-scripts allow-popups-to-escape-sandbox allow-same-origin"
+  />
 </Modal>
 <Modal
   class='p-0 m-0 rounded-xl w-[1000px] h-[200px] text-center top-0 right-0"'
